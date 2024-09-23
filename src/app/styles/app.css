@@ -1,0 +1,95 @@
+.smooth-scroll {
+  scroll-behavior: smooth;
+}
+.background-image {
+  position: fixed;
+  width: 100%;
+  height: calc(100 * var(--vh));
+  z-index: -1;
+}
+.title-16px {
+  text-overflow: ellipsis;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+}
+.body-14px {
+  font-size: 14px;
+  font-weight: 400;
+}
+.body-12px {
+  font-size: 12px;
+  font-weight: 500;
+}
+.label-14px {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.label-11px {
+  font-size: 11px;
+  font-weight: 500;
+}
+.icon-xs {
+  width: 16px;
+  height: 16px;
+}
+.icon-sm {
+  width: 20px;
+  height: 20px;
+}
+.icon-md {
+  width: 28px;
+  height: 28px;
+}
+.icon-lg {
+  width: 40px;
+  height: 40px;
+}
+
+.user-marker-container {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  animation: ping-animation 1.5s infinite;
+  background-color: var(--color-gray-20);
+  z-index: 2;
+}
+.user-marker {
+  width: 16px;
+  height: 16px;
+  background-color: #5a71ec;
+  border-radius: 50%;
+  box-shadow: 0px 2px 5px rgba(118, 118, 121, 0.3);
+}
+.selected-content-marker-container {
+  position: relative;
+  width: 48px;
+  height: 52px;
+  z-index: 3;
+}
+.selected-content-marker-container-image {
+  position: absolute;
+  left: 9px;
+  top: 7px;
+  width: 34px;
+  height: 34px;
+  border-radius: 7px;
+  border: 1px solid var(--color-white);
+}
+.default-marker-container {
+  position: relative;
+  width: 28px;
+  height: 33px;
+}
+.default-marker-icon {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 19px;
+  transform: translate(-50%, -50%);
+}

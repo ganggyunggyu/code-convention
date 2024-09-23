@@ -1,0 +1,137 @@
+@import url('./animation.css');
+@import url('./app.css');
+@font-face {
+  font-family: 'Noto Sans KR';
+  src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&display=swap');
+  font-weight: 400;
+  font-style: normal;
+}
+*,
+body,
+html,
+div,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR';
+}
+body {
+  overflow: hidden;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  outline: none;
+}
+button:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+input,
+textarea,
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  padding: 10px;
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+.scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.5;
+}
+
+input::-moz-placeholder {
+  color: inherit;
+  opacity: 0.5;
+}
+
+input:-ms-input-placeholder {
+  color: inherit;
+  opacity: 0.5;
+}
+
+input::placeholder {
+  color: inherit;
+  opacity: 0.5;
+}
+.opacity-modal-enter-active,
+.opacity-modal-leave-active {
+  transition: opacity 0.5s ease;
+}
+.opacity-modal-enter-from,
+.opacity-modal-leave-to {
+  opacity: 0;
+}
+
+:root {
+  --color-black: #10181f;
+  --color-white: #fefefe;
+  --color-gray-50: #4c5156;
+  --color-gray-40: #767676;
+  --color-gray-30: #cccccd;
+  --color-gray-20: #e1e1e1;
+  --color-gray-10: #f3f3f3;
+}
