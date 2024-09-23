@@ -7,7 +7,12 @@
 
 루트 디렉토리에서 실행
 
+프로젝트 최초 생성
+
 ```
+git clone https://github.com/ganggyunggyu/ar-docent-example-with-vuejs.git
+rm -rf .git
+git init
 mkcert localhost
 ```
 
